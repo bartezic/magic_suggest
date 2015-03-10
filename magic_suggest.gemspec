@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Viktor Oleksyn']
   spec.email         = ['bartezic@gmail.com']
   spec.description   = %q{MagicSuggest for the Rails asset pipeline}
-  spec.summary       = %q{MagicSuggest for the Rails asset pipeline}
+  spec.summary       = %q{MagicSuggest for the Rails asset pipeline.}
   spec.homepage      = 'https://github.com/bartezic/magic_suggest'
   spec.license       = 'MIT'
 
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", '~> 0'
 end
